@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    background-color: rgba(229, 243, 253, 0.464);
+    margin: 0;
+	padding: 0;
+	display: grid;
+    margin: 30px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.section {
+    margin-bottom: 20px;
+
+}
+
+.section-overview {
+    margin-bottom: 10px;
+
+}
+
+.title {
+	font-size: 2em;
+    font-family: 'Playfair Display', serif;
+	color: #CFBAF0;
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    font-style: bold;
+}
+
+hr {
+    border: 1px solid rgb(162, 144, 144);
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 250%;
+    color: #CFBAF0;
+    text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: larger;
+    padding-bottom: 20px;
+    color: rgb(120, 103, 103);
+    text-align: center;
+}
+
+#obs {
+    padding-bottom: 30px;
+}
+
+#interface-description {
+    padding-bottom: 25px;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.setting-modes, .setting-more, .flow-diagram, .storyboard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#advanced {
+    max-width: 95%;
+    max-height: 101%;
+}
+
+#basic {
+    max-width: 108%;
+    max-height: 88%;
+}
+
+#control {
+    padding-left: 15px;
+    padding-right: 30px;
+    max-width: 94%;
+    /* max-height: 88%;  */
+}
+
+#routing {
+    padding-left: 20px;
+    padding-right: 25px;
+    max-width: 108%;
+    max-height: 88%; 
+}
+
+#storyboard {
+    max-height: 120%;
+    border: 2px solid gray;
+}
+
+#flow-diagram {
+    max-width: 70%;
+}
+
+.personas {
+    display: flex;
+    text-align: center;
+}
+
+.persona-child {
+    max-height: auto;
+    display: inline-block;
+    padding: 0rem 1.5rem;
+}
+
+#question {
+    color: #c5acee;
+    font-size: 21px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+footer {
+	text-align: right;
+}
+
+.persona-description {
+    margin-bottom: 60px;
+}
+
+li {
+    font-size: larger;
+    padding-bottom: 10px;
+    color: rgb(120, 103, 103);
+}
