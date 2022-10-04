@@ -76,13 +76,13 @@ img {
 }
 
 #advanced {
-    max-width: 90%;
+    max-width: 95%;
     max-height: 101%;
 }
 
 #basic {
     max-width: 95%;
-    max-height: 90%;
+    max-height: 100%;
 } 
 
 #control {
